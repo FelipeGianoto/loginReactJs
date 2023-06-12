@@ -15,9 +15,8 @@ function App() {
 
   return (
     <div className="wrapper">
-      <h1 style={{color: 'white'}}>Seja Bem vindo</h1>
       <Routes>
-        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/" element={<Dashboard />} />
         <Route path="/preferences" element={<Preferences />} />
       </Routes>
     </div>
